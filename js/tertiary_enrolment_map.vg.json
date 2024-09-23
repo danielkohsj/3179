@@ -57,10 +57,10 @@
               "domain": [0, 120],
               "range": ["lightyellow", "red"]
             },
-            "legend": {"title": "Tertiary Enrollment Rate (%)"}
+            "legend": {"title": "Tertiary Enrollment Rate (% of population)"}
           },
           "tooltip": [
-            {"field": "properties.NAME", "type": "nominal", "title": "Country:"},
+            {"field": "properties.NAME", "type": "nominal", "title": "Country"},
             {"field": "Value", "type": "quantitative", "title": "Enrollment Rate (%)"}
           ]
         }
